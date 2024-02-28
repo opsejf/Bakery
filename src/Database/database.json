@@ -1,4 +1,25 @@
 {
+    "banners": [
+        {
+            "Page": "cupcakes",
+            "Img1": "https://bromabakery.com/wp-content/uploads/2023/03/Single-Serve-Vanilla-Cupcake-1067x1600.webp",
+            "Img2": "https://sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-5.jpg",
+            "Img3": "https://www.cookingclassy.com/wp-content/uploads/2014/09/neapolitan-cupcakes2-text..jpg",
+            "Img4": "https://sallysbakingaddiction.com/wp-content/uploads/2013/04/the-best-lemon-cupcakes-2.jpg"
+            
+        },
+        {
+            "Page": "cookies",
+            "Img1": "https://lemonsandzest.com/wp-content/uploads/2020/02/Birthday-Cake-Cookies-3.6.jpg",
+            "Img2": "https://thebananadiaries.com/wp-content/uploads/2023/05/vegan-double-chocolate-chip-cookies_2382.jpg",
+            "Img3": "https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg",
+            "Img4": "https://www.theroastedroot.net/wp-content/uploads/2022/03/3-ingredient-banana-nut-cookies-2.jpg"
+        },
+        {
+            "Page": "bread",
+            "Img1": ""
+        }
+    ],
     "stock": [
         {
             "Item": "Chocolate Chip Cookie",

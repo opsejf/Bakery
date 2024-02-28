@@ -1,0 +1,21 @@
+.pagebanner {
+    width: 100%;
+    height: 40vh;
+}
+
+.imagewrapper {
+    /* display: flex; */
+    justify-content: center;
+    /* vertical-align: center; */
+
+}
+
+.pagebanner img {
+    width: 10%;
+    height: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* align-items: center; */
+    /* vertical-align: center; */
+
+}
