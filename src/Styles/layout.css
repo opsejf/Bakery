@@ -1,0 +1,12 @@
+/* overall layout for webpages */
+
+.bodyFormat {
+    width: 100%;
+    height: auto;
+    background-color: pink;
+}
+
+header {
+    color: rgb(194, 143, 77); 
+
+}

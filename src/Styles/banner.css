@@ -1,0 +1,49 @@
+.image-container {
+    /* allows for the position absolute to be used in the text-overlay ??? i think */
+    position: relative;
+}
+
+.image-container img {
+    /* these width and heights make the image fit to the width without compressing/stretching the image vertically */
+    width: 100%;
+    height: auto;
+}
+  
+.text-overlay2 {
+    /* sets position of box over image */
+    position: absolute;
+    top: 77%; 
+    left: 80%; 
+    right: 5%;
+    /* transform: translate(-90%, -90%);  */
+    /* decoration */
+    background-color: white; 
+    color: rgb(194, 143, 77); 
+    font-weight: bold;
+    font-size: 1.2em;
+    /* makes size of box on top of image */
+    padding: 0.5% 1%; 
+    /* generic alignment */
+    text-align: center;
+    /* curved edges */
+    border-radius: 25px;
+}
+
+.text-overlay {
+    /* sets position of box over image */
+    position: absolute;
+    top: 5%; 
+    left: 60%; 
+    right: 5%;
+    /* transform: translate(-90%, -90%);  */
+    /* decoration */
+    color: rgb(194, 143, 77); 
+    font-weight: bold;
+    font-size: 3em;
+    
+    /* makes size of box on top of image */
+    /* generic alignment */
+    text-align: right;
+    /* curved edges */
+    border-radius: 25px;
+}

@@ -1,0 +1,57 @@
+.navbarWrapper {
+    /* decoration and setting the navbar flush to the top of the page */
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarWrapper ul {
+    /* sets the ul horizontally and aligns items centrally, vh is responsive to device, 10vh =~ 10% screen */
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    align-items: center;
+}
+
+.navbarWrapper li {
+    /* applies to each individual text or img, and gets rid of bullets, makes sure 
+    navbar uses whole width of screen */
+    color: rgb(194, 143, 77);
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+.navbarWrapper li:hover{
+    transform: scale(1.1);
+    transition-duration: 0s;
+    font-weight: bolder;
+    color: rgb(194, 143, 77);
+}
+
+.logoNavbar {
+    /* sets logo to the width of the li container it is in */
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(194, 143, 77);
+    font-weight: bold;
+}
+
+.icons {
+    width: 25%;
+    height: auto;
+}
+
+#lastNav {
+    margin-right: 15%;
+}
+
+#firstNav {
+    margin-right: 15%;
+}
